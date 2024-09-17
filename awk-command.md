@@ -1,15 +1,3 @@
-
-
-
-
-____    ____ .___  ___.  ________   __   __       __          ___      
-\   \  /   / |   \/   | |       /  |  | |  |     |  |        /   \     
- \   \/   /  |  \  /  | `---/  /   |  | |  |     |  |       /  ^  \    
-  \      /   |  |\/|  |    /  /    |  | |  |     |  |      /  /_\  \   
-   \    /    |  |  |  |   /  /----.|  | |  `----.|  `----./  _____  \  
-    \__/     |__|  |__|  /________||__| |_______||_______/__/     \__\ 
-                                                                       
-
 Typical Uses of AWK
 Myriad of tasks can be done with AWK. Listed below are just a few of them −
 
@@ -22,7 +10,7 @@ Syntax:
 
 awk options 'selection _criteria {action }' input-file > output-file
 
-|--------------------------------------------------|-------------------------------------------------------|
+
 | Commad                                           | Description                                           |
 |--------------------------------------------------|-------------------------------------------------------|
 | $ awk '{print}' file-name.txt                    | Awk prints every line of data from the specified file |
@@ -33,5 +21,4 @@ awk options 'selection _criteria {action }' input-file > output-file
 | $ awk 'NR==3, NR==6 {print NR,$0}' file-name.txt | Print line range                                      |
 | $ awk '{print NR "- " $1 }' file-name.txt        | Print first like with line number seperated by –      |
 | $ awk 'END { print NR }' file-name.txt           | Count number of lines                                 |
-|--------------------------------------------------|-------------------------------------------------------|
 

@@ -7,11 +7,11 @@
 
 **SED is available by default on most GNU/Linux distributions. If not, then install SED on Debian based GNU/Linux using apt package manager as follows:**
 
-$ sudo apt-get install sed 
+sudo apt-get install sed 
 
 **After installation, ensure that SED is accessible via command line.**
 
-$ sed --version
+sudo sed --version
 
 **Syntax:**
 

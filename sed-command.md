@@ -1,4 +1,4 @@
-SED can be used in many different ways, such as:
+**SED can be used in many different ways, such as:**
 
 1. Text substitution,
 2. Selective printing of text files,

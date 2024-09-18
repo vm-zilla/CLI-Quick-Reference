@@ -55,17 +55,10 @@ Let’s see what these fields are:
 ## Sample Usage
 
 | useradd -d /data/projects vmzilla          | Specify user home dir at the time of user creation |
-|--------------------------------------------|----------------------------------------------------|
 | useradd -u 1002 vmzilla                    | Create user with specific user ID                  |
-|--------------------------------------------|----------------------------------------------------|
 | useradd -u 1005 -g admin vmzilla           | Create user with specific group                    |
-|--------------------------------------------|----------------------------------------------------|
 | usermod -a -G group1,group2,group3 vmzilla | Adding user to multiple group                      |
-|--------------------------------------------|----------------------------------------------------|
 | useradd -M vmzilla                         | Adding user without home dir                       |
-|--------------------------------------------|----------------------------------------------------|
 | useradd -e 2024-08-27 vmzilla              | Adding user with expiry                            |
-|--------------------------------------------|----------------------------------------------------|
 | chage -l vmzilla                           | Verify the account and password aging information  |
-|--------------------------------------------|----------------------------------------------------|
 | useradd -e 2014-04-27 -f 45 vmzilla        | Set password expiry usin -f                        |

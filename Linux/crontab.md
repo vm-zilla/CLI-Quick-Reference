@@ -1,18 +1,9 @@
 crontab - Schedules commands execution at Specified time or time interval.
 
-
+**Syntax:**
 
 *    *    *   *    *  Command_to_execute
-|    |    |    |   |       
-|    |    |    |    Day of the Week ( 0 - 6 ) ( Sunday = 0 )
-|    |    |    |
-|    |    |    Month ( 1 - 12 )
-|    |    |
-|    |    Day of Month ( 1 - 31 )
-|    |
-|    Hour ( 0 - 23 )
-|
-Min ( 0 - 59 )
+
 
 | Field         | Allowed Values |  Description                            |
 |---------------|----------------|-----------------------------------------|
@@ -44,3 +35,14 @@ Min ( 0 - 59 )
 | `30 20 * * 6` | Executes at 08:30pm every Saturday |
 | `0 */5 * * * *` | Executes every five minutes |
 | `0 0 8-10/1 * * *` | Executes every hour between 8am and 10am |
+
+## Commands
+
+| Command                       | Description                       |
+|-------------------------------|-----------------------------------|
+| crontab -l                    | List all active cronjobs          |
+| sudo crontab -u [username] -l | List cronjobs for a specific user |
+| ls -la /etc/cron.hourly       | List Hourly Cron Jobs             |
+| ls -la /etc/cron.daily        | List Daily Cron Jobs              |
+| ls -la /etc/cron.monthly      | List Monthly Cron Jobs            |
+

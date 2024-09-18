@@ -31,7 +31,8 @@
 ## Sample Usage
 
 | useradd vmzilla  | This command will add a new user named vmzilla |
-| password vmzilla | This command will help set password for user   |
+|------------------|------------------------------------------------|
+| password vmzilla | This command will help set password for user |
 
 
 Once a new user is created, its entry is automatically added to the ‘/etc/passwd‘ file. This file is used to store the user’s information, and the entry should be.
